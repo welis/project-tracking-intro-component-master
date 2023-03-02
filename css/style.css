@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    margin: 0 10% 0 10%;
+    font-family: 'Barlow', sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8rem 0;
+}
+
+header img{
+    width: 3.4rem;
+    height: 3.4rem;
+}
+
+header ul{
+    display: flex;
+    list-style: none;
+}
+
+header ul li{
+    margin-right: 7.5rem;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+header ul li:hover{
+    color: hsl(12, 88%, 59%);
+}
+
+.menu-icon{
+    display: none;
+}
+
+.square_background{
+    background-color: hsl(207, 33%, 95%);
+    width: 50%;
+    height: 50%;
+    border-bottom-left-radius: 8rem;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 50%;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 8rem;
+}
+
+
+.main-content{
+    width: 40%;
+    padding-right: 5%;
+}
+
+.main-content span{
+    background-color: hsl(230, 29%, 20%);
+    color: white;
+    border-radius: 2rem;
+    padding: 0.6rem 1.2rem;
+    font-weight: 700;
+    margin-right: 1rem;
+}
+
+.main-content h1{
+    font-size: 1.6rem;
+    color: hsl(231, 7%, 65%);
+    font-weight: 400;
+    margin-bottom: 3rem;
+    letter-spacing: 0.5rem;
+}
+
+.main-content h2{
+    font-size: 5.4rem;
+    color: hsl(230, 29%, 20%);
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+}
+
+.main-content p{
+    font-size: 2rem;
+    color: hsl(231, 7%, 65%);
+    font-weight: 400;
+    margin-bottom: 3rem;
+    line-height: 2.5rem;
+    margin-right: 30%;
+}
+
+.main-content button{
+    background-color: hsl(0, 100%, 68%);
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5rem 3rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.main-content button:hover{
+    background-color: hsl(0, 100%, 74%);
+}
+
+.content-bottom{
+    display: flex;
+    align-items: center;
+    margin-top: 6.5rem;
+}
+
+.content-bottom p{
+    margin-left: 1rem;
+    margin-top: 50px;
+    margin-right: 0;
+}
+
+.main-img{
+    width: 60%;
+    transform: translateX(30%);
+}
+.main-img img{
+    transform: scale(1.2);
+}
+
+.attribution{
+    font-size: 0.6rem;
+    padding-top: 30%;
+}
+
+
+
+
+
+
+
